@@ -58,8 +58,9 @@ const Button = () => {
             <input
                 value={participantToken}
                 onChange={(e) => { setParticipantToken(e.target.value)}}
+                style={{ margin: '0px 8px', height: '24px', transform: 'translateY(-6px)' }}
             />
-            <div className="button-container row">
+            <div className="button-container row" >
                 <button
                     className="button margin-right"
                     onClick={joinStage}
